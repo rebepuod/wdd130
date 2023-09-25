@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300&display=swap');
+
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Playfair Display', serif; */
+
+
+:root {
+    --primary-color: #0B595B ;
+    --secondary-color:#799E9F;
+    --accent1-color: #FFB51F ;
+    --accent2-color:#E6E2E2 ;
+
+    --heading-font:'Playfair Display', serif ;
+    --paragraph-font:'Poppins', sans-serif ;
+    
+    --nav-background-color:#0B595B ;
+    --nav-link-color:#E6E2E2  ;
+    --nav-hover-link-color:#FFB51F  ;
+    --nav-hover-background-color: #799E9F ;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav{
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color:var(--nav-link-color);
+}
+
+nav a:hover {
+    color:var(--nav-hover-link-color);
+    background-color: var(--hover-background-color);
+}
+
