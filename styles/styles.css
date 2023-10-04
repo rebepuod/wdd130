@@ -24,7 +24,9 @@ nav a {
 
 h1 {
     color: steelblue;
-    border-bottom: 2px steelblue;
+    border-bottom: 2px solid;
+    padding: 10px 0;
+    
 }
 
 img{
@@ -36,7 +38,7 @@ img{
 }
 
 p {
-    padding: 0;
+    padding: 20px 0;
 }
 
 
@@ -51,6 +53,7 @@ aside {
 aside img {
     width: 200px;
     height: auto;
+    
 }
 
 aside p {
@@ -61,6 +64,7 @@ main img {
     width: 150px;
     height: auto;
     float: right;
+    margin: 20px 0;
 }
 
 footer {
