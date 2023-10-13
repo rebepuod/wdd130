@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rebeca Puodziunas">
+    <meta name="description" content="Contact us page from the WDD 130 course">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles/contact.css">
+</head>
+<body>
+    <header>
+        <div class="gridheader">
+            
+            <img src="images/logo.jpg" alt="logo">
+            
+            
+            <nav class="navigation">
+                <a href="index.html">Home </a>
+                <a href="about.html">About Us </a>
+                <a href="trips.html">Trips </a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+            
+        </div>
+    </header>
+
+    <main>
+        <section class="information">
+            <h1>Information</h1>
+            <article>    
+            <p>Phone Number: 222-122-456</p>
+            <p>e-mail: whitewater@gmail.com</p>
+            <p>Adress: Frazione Villetos, 15, 11010 Aymavilles AO</p>
+            </article>     
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2786.289632298722!2d7.242951375834856!3d45.70522611732531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478921850234460d%3A0x33354dee3a1abac6!2sFrazione%20Villetos%2C%2015%2C%2011010%20Aymavilles%20AO!5e0!3m2!1ses-419!2sit!4v1697202618480!5m2!1ses-419!2sit" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+            </div>            
+        </section>
+                
+        <section class="team">
+            <h2>Our Team</h2>
+            <figure class="image1">
+                <img src="images/employee1.jpg" alt="Sarah"> <figcaption> Sarah Clark</figcaption>
+            </figure>
+            <figure class="image2">
+                <img src="images/employee2.jpg" alt="Tom"> <figcaption> Tom Swift</figcaption>
+            </figure>
+            <figure class="image3">
+                <img src="images/employee3.jpg" alt="Nina"> <figcaption>Nina Alwyn</figcaption>
+            </figure>
+            
+        </section>
+        
+
+        <section class="adventurelayout">
+            <div class="adventuretitle"><h2>Message Us!</h2></div>
+            
+            <div>
+            <form>
+                <div class="text">
+                <label for="name"> Name :  </label>
+                <input type="text" id="name" name="name">
+                </div>
+
+                <div class="text">
+                    <label for="e-mail">e-mail:</label>
+                    <input type="text" id="e-mail" name="e-mail">
+                </div>
+
+                <div class="select">
+                    <p class="messagepurpose">Message Purpose </p>
+                    <label for="inquiry">General Inquiry</label>
+                    <input type="radio" id="inquiry" name="reason" value="General Inquiry">
+                    <label for="question">Reservation Question</label>
+                    <input type="radio" id="question" name="reason" value="Reservation Question">
+                    <label for="suggestion">Website Suggestion</label>
+                    <input type="radio" id="suggestion" name="reason" value="Website Suggestion">
+                </div>
+
+
+                <div>
+                    <label for="message" class="messagetext">Your Message </label>
+                    <textarea id="message" name="message"> </textarea>
+                </div>
+
+                <div class="monthlys">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter </label>
+                    <input type="checkbox" id="subscribe" name="suscribe">
+                </div>
+
+                <button type="submit">Submit</button>
+
+
+            </form>
+            </div>
+            
+            
+        </section>
+    </main>
+
+    <footer>
+        <div class="footerp">
+            <p>&copy;2023 | White Water Rafting | Rebeca Puodziunas</p>
+        </div>
+        <nav class="sociallinks">
+            <a href="https://facebook.com" target="_blank"><img src="images/facebooklogo.webp" alt="Facebook"></a>
+            <a href="https://instagram.com" target="_blank"><img src="images/instagramlogo.webp" alt="Instagram"></a>
+            <a href="https://twitter.com" target="_blank"><img src="images/twitterlogo.webp" alt="Twitter"></a>
+        </nav>
+    </footer>
+
+</body>
+</html>
