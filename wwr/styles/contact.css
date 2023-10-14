@@ -72,7 +72,7 @@ p {
     border:2px solid #0B595B;
 }
 
-h1{
+.information h1{
     display: flex;
     justify-content: center;
     color: #0B595B;
@@ -80,12 +80,12 @@ h1{
     margin:10px ;                
 }
 
-article{
+.carticle{
     padding: 20px 50px;
 
 }
 
-article p{
+.carticle p{
     margin:10px
 }
 .information{
@@ -111,7 +111,7 @@ iframe{
     border: 1px solid #0B595B ;
 }
 
-article{
+.carticle{
     background-color: #eee;
 }
 
@@ -187,8 +187,8 @@ footer{
     max-width: 1000px;
     
 }
-/*ADVENTURE*/
-.adventurelayout {
+
+.messagelayout {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 3fr;
@@ -198,25 +198,25 @@ footer{
     
 }
 
-.adventuretitle {
+.messagetitle {
     
     display:flex;
     justify-content: center;
           
 }
 
-figure {
+.image1 {
     grid-row: span3 ;
 }
 
-figure img {   
+.image1 img {   
         width: 250px;
         height: 250px;
         display: flex;
         align-items: center;
     }
 
-figcaption{
+.ccaption{
     font-size:1em;
       
     display:flex;
